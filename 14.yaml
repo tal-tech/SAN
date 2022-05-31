@@ -1,0 +1,75 @@
+# 实验名称
+experiment: "SAN_v2"
+
+# 随机种子
+seed: 20200814
+
+# 训练参数
+epoches: 200
+batch_size: 8
+workers: 0
+optimizer: Adadelta
+lr: 1
+lr_decay: cosine
+step_ratio: 10
+eps: 1e-6
+weight_decay: 1e-4
+beta: 0.9
+image_resize: True
+image_width: 3200
+image_height: 400
+image_channel: 1
+dropout: True
+dropout_ratio: 0.5
+relu: True
+gradient: 100
+gradient_clip: True
+use_label_mask: False
+
+# 训练数据
+train_image_path: 'data/train_image.pkl'
+train_label_path: 'data/train_label.pkl'
+eval_image_path: 'data/test_image.pkl'
+eval_label_path: 'data/test_label.pkl'
+
+word_path: 'data/word.txt'
+
+# 选择encoder
+encoder:
+  net: DenseNet
+  input_channels: 1
+  out_channels: 684
+
+resnet:
+  conv1_stride: 1
+
+densenet:
+  ratio: 16
+  growthRate: 24
+  reduction: 0.5
+  bottleneck: True
+  use_dropout: True
+
+# 使用的rnn cell
+decoder:
+  net: SAN_decoder
+  cell: 'GRU'
+  input_size: 256
+  hidden_size: 256
+
+# attention 参数
+attention:
+  attention_dim: 512
+
+# hybrid tree
+hybrid_tree:
+  threshold: 0.5
+
+# 训练权重存放路径
+optimizer_save: False
+checkpoint_dir: 'checkpoints'
+finetune: False
+checkpoint: "checkpoints/SAN_decoder/best.pth"
+
+# tensorboard路径
+log_dir: 'logs'
