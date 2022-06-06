@@ -3,6 +3,7 @@
 SAN is an accurate handwritten mathematical expression recognizer. The research paper can be found [here](https://arxiv.org/abs/2203.01601).
 ![SAN Overview](overview.png)
 
+
 ### Install
 
 ```
