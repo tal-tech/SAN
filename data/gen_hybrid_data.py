@@ -168,7 +168,7 @@ for line in tqdm(lines):
                 tem = tem + '\tbelow' if 'below' in parent_dict[id] else tem + '\tNone'
                 tem = tem + '\tsub' if 'sub' in parent_dict[id] else tem + '\tNone'
                 tem = tem + '\tsup' if 'sup' in parent_dict[id] else tem + '\tNone'
-                tem = tem + '\tl_sup' if 'l_sup' in parent_dict[id] else tem + '\tNone'
+                tem = tem + '\tL-sup' if 'L-sup' in parent_dict[id] else tem + '\tNone'
                 tem = tem + '\tinside' if 'inside' in parent_dict[id] else tem + '\tNone'
                 tem = tem + '\tright' if 'right' in parent_dict[id] else tem + '\tNone'
                 f.write(tem + '\n')
