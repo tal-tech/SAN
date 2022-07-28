@@ -1,13 +1,20 @@
 # Syntax-Aware Network for Handwritten Mathematical Expression Recognition
 
-SAN is an accurate handwritten mathematical expression recognizer. The research paper can be found [here](https://arxiv.org/abs/2203.01601).
+This is the official pytorch implementation of [SAN](https://arxiv.org/abs/2203.01601) (CVPR'2022).
 ![SAN Overview](overview.png)
 
 
-### Install
+### Environment
 
 ```
-pip install -r requirement.txt
+python==3.8.5
+numpy==1.22.2
+opencv-python==4.5.5.62
+PyYAML==6.0
+tensorboardX==2.5
+torch==1.6.0+cu101
+torchvision==0.7.0+cu101
+tqdm==4.64.0
 ```
 
 ### Train
@@ -30,12 +37,12 @@ python inference.py --config 14.yaml --image_path data/14_test_images --label_pa
 
 CROHME: 
 ```
-You can download the dataset from: https://github.com/JianshuZhang/WAP/tree/master/data
+Download the dataset from: https://github.com/JianshuZhang/WAP/tree/master/data
 ```
 
 HME100K
 ```
-You can download the dataset from the official website: https://ai.100tal.com/dataset
+Download the dataset from the official website: https://ai.100tal.com/dataset
 ```
 
 ### Citation
@@ -43,10 +50,11 @@ You can download the dataset from the official website: https://ai.100tal.com/da
 If you find this dataset helpful for your research, please cite the following paper:
 
 ```
-@article{yuan2022syntax,
+@inproceedings{yuan2022syntax,
   title={Syntax-Aware Network for Handwritten Mathematical Expression Recognition},
   author={Yuan, Ye and Liu, Xiao and Dikubab, Wondimu and Liu, Hui and Ji, Zhilong and Wu, Zhongqin and Bai, Xiang},
-  journal={arXiv preprint arXiv:2203.01601},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4553--4562},
   year={2022}
 }
 ```
