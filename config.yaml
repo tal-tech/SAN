@@ -16,8 +16,8 @@ eps: 1e-6
 weight_decay: 1e-4
 beta: 0.9
 image_resize: True
-image_width: 3200
-image_height: 400
+image_width: 1600
+image_height: 320
 image_channel: 1
 dropout: True
 dropout_ratio: 0.5

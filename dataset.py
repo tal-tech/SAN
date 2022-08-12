@@ -18,6 +18,8 @@ class HYBTr_Dataset(Dataset):
         self.max_width = params['image_width']
         self.is_train = is_train
         self.params = params
+        self.image_height = params['image_height']
+        self.image_width = params['image_width']
 
     def __len__(self):
         return len(self.labels)
@@ -56,6 +58,39 @@ class HYBTr_Dataset(Dataset):
 
         return image, label
 
+    def collate_fn(self, batch_images):
+
+        max_width, max_height, max_length = 0, 0, 0
+        batch, channel = len(batch_images), batch_images[0][0].shape[0]
+        proper_items = []
+        for item in batch_images:
+            if item[0].shape[1] * max_width > self.image_width * self.image_height or item[0].shape[2] * max_height > self.image_width * self.image_height:
+                continue
+            max_height = item[0].shape[1] if item[0].shape[1] > max_height else max_height
+            max_width = item[0].shape[2] if item[0].shape[2] > max_width else max_width
+            max_length = item[1].shape[0] if item[1].shape[0] > max_length else max_length
+            proper_items.append(item)
+
+        images, image_masks = torch.zeros((len(proper_items), channel, max_height, max_width)), torch.zeros(
+            (len(proper_items), 1, max_height, max_width))
+        labels, labels_masks = torch.zeros((len(proper_items), max_length, 11)).long(), torch.zeros(
+            (len(proper_items), max_length, 2))
+
+        for i in range(len(proper_items)):
+
+            _, h, w = proper_items[i][0].shape
+            images[i][:, :h, :w] = proper_items[i][0]
+            image_masks[i][:, :h, :w] = 1
+
+            l = proper_items[i][1].shape[0]
+            labels[i][:l, :] = proper_items[i][1]
+            labels_masks[i][:l, 0] = 1
+
+            for j in range(proper_items[i][1].shape[0]):
+                labels_masks[i][j][1] = proper_items[i][1][j][4:].sum() != 0
+
+        return images, image_masks, labels, labels_masks
+
 
 def get_dataset(params):
 
@@ -72,46 +107,14 @@ def get_dataset(params):
     eval_sampler = RandomSampler(eval_dataset)
 
     train_loader = DataLoader(train_dataset, batch_size=params['batch_size'], sampler=train_sampler,
-                              num_workers=params['workers'], collate_fn=collate_fn, pin_memory=True)
+                              num_workers=params['workers'], collate_fn=train_dataset.collate_fn, pin_memory=True)
     eval_loader = DataLoader(eval_dataset, batch_size=1, sampler=eval_sampler,
-                              num_workers=params['workers'], collate_fn=collate_fn, pin_memory=True)
+                              num_workers=params['workers'], collate_fn=eval_dataset.collate_fn, pin_memory=True)
 
     print(f'train dataset: {len(train_dataset)} train steps: {len(train_loader)} '
           f'eval dataset: {len(eval_dataset)} eval steps: {len(eval_loader)}')
 
     return train_loader, eval_loader
-
-
-def collate_fn(batch_images):
-
-    max_width, max_height, max_length = 0, 0, 0
-    batch, channel = len(batch_images), batch_images[0][0].shape[0]
-    proper_items = []
-    for item in batch_images:
-        if item[0].shape[1] * max_width > 1600 * 320 or item[0].shape[2] * max_height > 1600 * 320:
-            continue
-        max_height = item[0].shape[1] if item[0].shape[1] > max_height else max_height
-        max_width = item[0].shape[2] if item[0].shape[2] > max_width else max_width
-        max_length = item[1].shape[0] if item[1].shape[0] > max_length else max_length
-        proper_items.append(item)
-
-    images, image_masks = torch.zeros((len(proper_items), channel, max_height, max_width)), torch.zeros((len(proper_items), 1, max_height, max_width))
-    labels, labels_masks = torch.zeros((len(proper_items), max_length, 11)).long(), torch.zeros((len(proper_items), max_length, 2))
-
-    for i in range(len(proper_items)):
-
-        _, h, w = proper_items[i][0].shape
-        images[i][:, :h, :w] = proper_items[i][0]
-        image_masks[i][:, :h, :w] = 1
-
-        l = proper_items[i][1].shape[0]
-        labels[i][:l, :] = proper_items[i][1]
-        labels_masks[i][:l, 0] = 1
-
-        for j in range(proper_items[i][1].shape[0]):
-            labels_masks[i][j][1] = proper_items[i][1][j][4:].sum() != 0
-
-    return images, image_masks, labels, labels_masks
 
 
 class Words:
