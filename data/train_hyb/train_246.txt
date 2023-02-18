@@ -1,0 +1,16 @@
+1	\angle	0	<sos>	None	None	None	None	None	None	None
+2	C	1	\angle	None	None	None	None	None	None	None
+3	O	2	C	None	None	None	None	None	None	None
+4	E	3	O	None	None	None	None	None	None	None
+5	=	4	E	None	None	None	None	None	None	None
+6	6	5	=	None	None	None	None	None	None	None
+7	0	6	6	None	None	None	None	None	None	None
+8	struct	7	0	None	None	None	sup	None	None	right
+9	\circ	8	sup	None	None	None	None	None	None	None
+10	<eos>	9	\circ	None	None	None	None	None	None	None
+11	-	8	right	None	None	None	None	None	None	None
+12	\angle	11	-	None	None	None	None	None	None	None
+13	D	12	\angle	None	None	None	None	None	None	None
+14	O	13	D	None	None	None	None	None	None	None
+15	C	14	O	None	None	None	None	None	None	None
+16	<eos>	15	C	None	None	None	None	None	None	None

@@ -1,0 +1,15 @@
+1	x	0	<sos>	None	None	None	None	None	None	None
+2	struct	1	x	None	None	sub	None	None	None	right
+3	1	2	sub	None	None	None	None	None	None	None
+4	<eos>	3	1	None	None	None	None	None	None	None
+5	=	2	right	None	None	None	None	None	None	None
+6	9	5	=	None	None	None	None	None	None	None
+7	,	6	9	None	None	None	None	None	None	None
+8	X	7	,	None	None	None	None	None	None	None
+9	struct	8	X	None	None	sub	None	None	None	right
+10	2	9	sub	None	None	None	None	None	None	None
+11	<eos>	10	2	None	None	None	None	None	None	None
+12	\div	9	right	None	None	None	None	None	None	None
+13	-	12	\div	None	None	None	None	None	None	None
+14	1	13	-	None	None	None	None	None	None	None
+15	<eos>	14	1	None	None	None	None	None	None	None

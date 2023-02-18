@@ -1,0 +1,15 @@
+1	1	0	<sos>	None	None	None	None	None	None	None
+2	6	1	1	None	None	None	None	None	None	None
+3	-	2	6	None	None	None	None	None	None	None
+4	(	3	-	None	None	None	None	None	None	None
+5	6	4	(	None	None	None	None	None	None	None
+6	-	5	6	None	None	None	None	None	None	None
+7	4	6	-	None	None	None	None	None	None	None
+8	\sqrt	7	4	None	None	None	None	None	None	None
+9	struct	8	\sqrt	None	None	None	None	None	inside	right
+10	3	9	inside	None	None	None	None	None	None	None
+11	<eos>	10	3	None	None	None	None	None	None	None
+12	+	9	right	None	None	None	None	None	None	None
+13	2	12	+	None	None	None	None	None	None	None
+14	)	13	2	None	None	None	None	None	None	None
+15	<eos>	14	)	None	None	None	None	None	None	None

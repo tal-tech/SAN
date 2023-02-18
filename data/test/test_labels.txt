@@ -1,0 +1,247 @@
+test_2.jpg	\frac { 5 } { 1 4 } = \frac { 1 } { x }
+test_3.jpg	- 2 x ^ { 4 } - x ^ { 2 } + 5 = ( - x ^ { 2 } + 1 ) ( x + a ) + b = x ^ { 2 } + a x + 3 x - 3 a - b
+test_5.jpg	S _ { \Delta D B F } = \frac { 3 } { 8 } S _ { \Delta A B C } = \frac { 3 } { 8 } \times \frac { 1 5 } { 2 } = \frac { 4 5 } { 1 6 }
+test_6.jpg	: x _ { 1 } = - \frac { 3 } { 5 }
+test_7.jpg	7 5 \div ( 7 5 + 2 5 ) = 7 5 \div 1 0 0 = 7 5 \%
+test_8.jpg	y = 3 . y = - 1
+test_9.jpg	x _ { 1 } = - 6 x _ { 2 } = 4
+test_10.jpg	2 3 . 5 + \frac { 1 } { 2 } x = 1 3 + x
+test_13.jpg	\frac { 9 } { 1 0 } \div \frac { 3 } { 5 } = \frac { ( 9 ) } { ( 1 0 ) } \textcircled { \times } \frac { ( 5 ) } { ( 3 ) } = ( \frac { 2 } { 3 } )
+test_14.jpg	= \frac { ( 7 + 1 8 ) + ( 9 - 1 4 ) i } { 5 } = \frac { 2 5 - 5 i } { 5 } = 5 - i
+test_16.jpg	\angle C P Q = \angle B = 9 0 ^ { \circ }
+test_17.jpg	a - 4 b = - 1
+test_18.jpg	a \neq \frac { 3 } { 2 }
+test_19.jpg	a \bot b
+test_20.jpg	\frac { O E } { A C } = \frac { O B } { A B }
+test_21.jpg	\frac { \frac { 8 } { 3 } } { 2 \times \frac { 4 } { 9 } } = - \frac { - \frac { 8 } { 3 } } { \frac { 8 } { 9 } } = \frac { 8 } { 3 } \times \frac { 9 } { 8 } = 3
+test_23.jpg	y = \frac { 7 } { 3 }
+test_24.jpg	( - 1 + 0 ) ^ { 2 } = ( - 1 ) ^ { 2 } = 1
+test_25.jpg	x _ { 3 } = \frac { - 5 + \sqrt { 4 1 } } { 4 }
+test_26.jpg	b ^ { 2 } \dot { = } a ^ { 2 } + c ^ { 2 } - 2 a c \cdot \cos B
+test_27.jpg	1 0 \sqrt { 1 0 x - x ^ { 2 } } = 1 4
+test_28.jpg	5 . 5 - 2 . 5 ) x + 4 8 \times 5 . 5 = 4 8 0
+test_29.jpg	4 . 5 8 5 > 4 . 6 5 > 4 . 5 6 > 4 . 5 0 6
+test_30.jpg	\angle D O E = \angle D B E = \angle A E B = 7 5 ^ { \circ }
+test_31.jpg	x = \frac { 1 7 } { 5 }
+test_32.jpg	\frac { 1 } { 3 } \times \frac { 1 } { 4 } = \frac { 1 } { 1 2 } = 1 2 ( c m )
+test_33.jpg	\frac { 2 x - 6 } { 2 } = 6
+test_34.jpg	y = \frac { x ( x - 2 ) } { ( x - 1 ) ^ { 2 } }
+test_35.jpg	x _ { 1 } = \frac { 1 } { 9 }
+test_36.jpg	y _ { 1 } = 0 , y _ { 2 } = \frac { 8 } { 3 } \cdot
+test_39.jpg	( 2 ) \vert A B \vert = \vert - 1 - 5 \vert = 6
+test_40.jpg	\frac { 4 x } { 3 } + \frac { 3 } { 2 } > - \frac { x } { 6 }
+test_41.jpg	( \frac { ( 2 \times 4 ) } { 8 } + 1 3 = 2 1 > 2 0 )
+test_42.jpg	n = \frac { 1 } { 2 } \div \frac { 3 } { 2 }
+test_43.jpg	\frac { 1 } { 2 } \times 3 \times 6 + \frac { 1 } { 2 } \times ( 6 + 8 ) \times 1 1 + \frac { 1 } { 2 } \times 2 \times 6 = 9 4
+test_44.jpg	x = 2 ( \frac { 5 x - 1 7 } { 4 } )
+test_45.jpg	P ( x = 0 ) : \frac { C _ { 4 } ^ { 3 } } { C _ { 7 } ^ { 3 } } = \frac { 4 } { 3 5 }
+test_46.jpg	B Q = A B \tan A = 2 0 \tan 6 0 ^ { \circ } = 2 0 \sqrt { 2 }
+test_47.jpg	\frac { 1 } { 3 } \times \frac { 1 } { 3 } = \frac { 1 } { 9 }
+test_48.jpg	1 9 6 . 2 6 \times \frac { 3 } { 4 } = 1 4 7 . 1 9 5 ( m l )
+test_49.jpg	\sin \angle 3 = \frac { A D } { A C } = \frac { A O } { O C } = \frac { 5 } { 5 \sqrt { 5 } }
+test_50.jpg	5 \frac { 1 } { 2 } - 3 x = a + \frac { 1 } { 4 } x
+test_51.jpg	\vert \overrightarrow { b } \vert = \sqrt { \vert \overrightarrow { b } \vert ^ { 2 } } = \sqrt { \overrightarrow { b } \cdot \overrightarrow { b } } = \sqrt { x _ { 2 } ^ { 2 } + y _ { 2 } ^ { 2 } }
+test_52.jpg	1 + a ^ { 2 } b ^ { 2 } - a ^ { 2 } - b ^ { 2 } > 0
+test_53.jpg	x = \frac { 2 2 5 } { 2 } \times \frac { 1 0 } { 1 2 }
+test_54.jpg	S _ { \Delta A O V } = \frac { 1 } { 2 } \times 4 \times 6 = 1 2
+test_55.jpg	A H = 3 k B H = 4 k
+test_61.jpg	\frac { x ^ { 2 } } { 4 } + \frac { y ^ { 2 } } { 2 } = 1 ( \vert x \vert \neq 2 )
+test_62.jpg	\frac { 2 x } { 3 } = \frac { 4 x - 8 } { 9 } - 5
+test_64.jpg	x = - \frac { 6 4 } { 3 }
+test_65.jpg	( x + 1 ) ^ { 2 } - 4 = ( x + 1 ) ( x - 1 )
+test_66.jpg	x ^ { 2 } + a x ^ { 2 } + a ^ { 2 } x - a x ^ { 2 } - a ^ { 2 } x - a
+test_67.jpg	3 6 0 0 0 c m ^ { 3 } = 3 6 d m ^ { 3 }
+test_68.jpg	x - y = - \frac { 1 1 } { 1 2 }
+test_70.jpg	0 . 5 < 0 . 5 0 1 < 0 . 5 1 < 0 . 5 1 1
+test_71.jpg	\frac { 8 } { 8 } - \frac { 7 } { 8 } = \frac { 1 } { 8 }
+test_72.jpg	\frac { 2 8 } { 4 2 } = \frac { 1 4 \times 2 } { 1 4 \times 3 } = \frac { 2 } { 3 }
+test_73.jpg	9 x - 5 , 2 = 2 1 . 8
+test_74.jpg	W = ( 1 2 0 - a ) m + 1 0 0 ( 3 0 0 - m )
+test_75.jpg	x _ { 1 } = \sqrt { 2 } x _ { 2 } = - \sqrt { 2 }
+test_76.jpg	\therefore F 1 8 0
+test_77.jpg	1 0 0 = 2 0 0 k + b
+test_78.jpg	x _ { 3 } = \frac { 1 } { 4 }
+test_79.jpg	\frac { 1 } { 5 } \times 1 0 0 0 = 2 0 0 ( g )
+test_80.jpg	\angle A E D = \angle D A E = \frac { 1 } { 2 } ( 1 8 0 ^ { \circ } -
+test_81.jpg	\frac { x ^ { 2 } + 1 } { x + 1 } - \frac { 2 } { x + 1 }
+test_82.jpg	3 0 - 3 = 2 7 ( c m )
+test_83.jpg	3 y - 2 = 9 - 6 \sqrt { y + 3 } + y + 3
+test_85.jpg	3 . 1 4 \times 5 \times 8 = 1 2 5 . 6 ( m ^ { 2 } )
+test_86.jpg	v = \frac { 2 } { 3 }
+test_87.jpg	F e + H _ { 2 } S O 4 = F e _ { 5 } S O _ { 4 } + H 2 \uparrow
+test_88.jpg	\angle 2 + \angle 3 = \angle E B F = 9 0 ^ { \circ }
+test_89.jpg	5 \times 3 \times 4 = 6 0 ( d m ) ^ { 3 }
+test_90.jpg	a m + b n > a n + b m > 0
+test_91.jpg	2 x = 8
+test_92.jpg	x = \frac { 5 } { 8 }
+test_93.jpg	\frac { 1 } { 4 } \div \frac { 3 } { 2 } = \frac { 1 } { 6 }
+test_94.jpg	3 x _ { ( g ) } + y _ { ( g ) } \rightleftharpoons 2 z ( g )
+test_95.jpg	x + 1 = \pm \frac { 4 } { 5 }
+test_96.jpg	\frac { 2 x } { x - 2 } = \frac { 2 - x } { 2 - x } - \frac { 1 } { 2 - x }
+test_97.jpg	4 . 5 0 6 < 4 . 5 6 < 4 . 5 6 < 4 . 5 6 5 < 5 . 6 5
+test_98.jpg	- 1 0 - \frac { 1 } { 5 }
+test_101.jpg	\frac { 1 } { 2 } x = \frac { 2 } { 3 } \times 6
+test_102.jpg	1 0 a + 1 5 0 - 1 5 a \geq
+test_103.jpg	B D ^ { 2 } - A B ^ { 2 } - A D ^ { 2 }
+test_105.jpg	( 1 ) a ^ { x } _ { 2 } = a _ { 1 } + ( 2 - 1 ) d
+test_106.jpg	2 ^ { 2 } + b ^ { 2 } = a ^ { 2 } + b ^ { 2 }
+test_109.jpg	2 N a O H + C u S O _ { 4 } = C u ( O H ) _ { 2 } \downarrow + N a _ { 2 } S O _ { 4 }
+test_110.jpg	\frac { x } { 3 } + \frac { a + x } { 2 } = 1
+test_111.jpg	a = - 7 - ( 2 , s )
+test_112.jpg	\angle B O C = 1 2 0 ^ { \circ }
+test_113.jpg	a _ { 2 } = 3 b _ { 2 } = 6
+test_114.jpg	1 5 0 0 \times \frac { 1 } { 5 } = \frac { 1 5 0 0 \times 1 } { 5 } = \frac { 1 5 0 0 } { 5 } = \frac { 3 0 0 } { 5 } =
+test_115.jpg	\frac { 1 } { 2 c } + \frac { 1 } { 2 a } \geq \frac { 2 } { c + a }
+test_116.jpg	l = R + R \sin 3 0 ^ { \circ }
+test_117.jpg	x - 5 - 2 x + 7 - 4 \sqrt { 2 x - 7 } - 4 = 0
+test_118.jpg	a n c = 0
+test_119.jpg	k > 0 E ( - \infty , - \frac { 1 } { k } ) \downarrow ( - \frac { 1 } { k } , - \infty ) \uparrow
+test_120.jpg	x = \frac { B E } { A B } = \frac { 1 } { 4 }
+test_121.jpg	2 c m : 6 0 0 m = 2 c m : 6 0 0 0 0 c m = 1 : 3 0 0 0 0
+test_122.jpg	\frac { m ^ { 2 } + 4 } { m ^ { 2 } - 1 }
+test_124.jpg	+ a _ { 6 } + ( a _ { 3 } + a _ { 8 } ) = 5 + 5 + 5 + 5 + 5 = 2 5
+test_125.jpg	x _ { 1 } = n + 2 , x _ { 2 } = 2 ( n + 1 )
+test_126.jpg	- x = m + 1 , y = - m - 3
+test_127.jpg	\frac { 4 \times 1 2 } { 4 8 } + \frac { ( 8 - 4 ) } { 4 } \times 3 = 6 0
+test_128.jpg	\frac { 3 } { 2 } = \frac { 2 } { x }
+test_129.jpg	x = \frac { 2 4 } { 5 }
+test_130.jpg	x = \frac { 2 4 } { 5 }
+test_131.jpg	2 L i O H + C O _ { 2 } = L i _ { 2 } C O _ { 3 } + H _ { 2 } O
+test_132.jpg	\therefore D P = \frac { - 3 + \sqrt { 6 9 } } { 2 }
+test_133.jpg	\sin \alpha x = \alpha
+test_134.jpg	3 x - \frac { 3 } { 4 } = \frac { 1 } { 4 }
+test_135.jpg	\frac { 2 7 } { 2 } - 6 + 3 \sqrt { 3 } + \frac { 9 } { 2 }
+test_136.jpg	y ( 2 y + x ) = 0 \cdot \therefore y
+test_137.jpg	1 0 0 y \times 2 \times 2 = 1 0 0 x \times 1 \times 1
+test_139.jpg	y = \frac { 3 } { 2 }
+test_140.jpg	k \geq 0 . k \geq \sqrt { 2 }
+test_141.jpg	A D \bot B C
+test_143.jpg	2 t - \frac { 2 5 } { 2 4 } )
+test_144.jpg	I _ { 1 } : I _ { 2 } = 3 : 1
+test_145.jpg	\cdot E G = \frac { 1 } { 2 }
+test_146.jpg	F e + H _ { 2 } S O _ { 4 } = F e S O _ { 4 } + H _ { 2 } \uparrow
+test_148.jpg	x = \frac { 3 } { 4 }
+test_149.jpg	( y - 2 ) ( y + 1 ) = 0
+test_151.jpg	4 - 2 h = \sqrt { h ^ { 2 } + r ^ { 2 } } . \textcircled { 1 }
+test_153.jpg	\sqrt { x + 4 5 } - 2 x + 1 = 0
+test_154.jpg	\frac { 1 } { 4 } x + \frac { 3 } { 1 0 } y = 1
+test_155.jpg	x = \frac { 3 } { 8 }
+test_156.jpg	( 8 9 9 9 ) < ( 9 0 0 1 ) < ( 9 8 9 9 ) < ( 9 9 9 9 )
+test_158.jpg	\angle P F E = 1 8 0 ^ { \circ } - \angle 1 - 9 0 ^ { \circ }
+test_159.jpg	S _ { \Delta } A F C = \frac { 1 } { 2 } A F \cdot B C = 1 0
+test_161.jpg	6 0 \times \frac { 3 } { 4 } = \frac { 6 0 \times 3 } { 4 } = \frac { 1 8 0 } { 4 } = 4 5
+test_163.jpg	1 4 0 ^ { \circ } - 5 m + 5 m - 5 0 ^ { \circ } = 9 0
+test_164.jpg	x > - \frac { 5 } { 2 }
+test_165.jpg	\frac { x + 2 } { 3 } = 1
+test_166.jpg	E H = \sqrt { x ^ { 2 } - x ^ { 2 } + 5 x - \frac { 2 5 } { 4 } } =
+test_167.jpg	I = \frac { Q } { t } = \frac { 2 } { 4 } = 0 . 5
+test_168.jpg	\angle A O F = \angle 3 = 4 0 ^ { \circ }
+test_169.jpg	( 4 2 \div 2 ) + 2 = 2 3 ( m )
+test_170.jpg	2 N a O H + C O _ { 2 } = O N a _ { 2 } C O _ { 3 } + H _ { 2 } O
+test_171.jpg	n ( n + 2 ) + 1 = ( n + 1 ) ^ { 2 }
+test_172.jpg	\angle P A C = \frac { 1 } { 2 } \angle B A C = 4 8
+test_173.jpg	\angle B O D + \angle C O D = 6 0 ^ { \circ } + 3 0 ^ { \circ } = 9 0 ^ { \circ }
+test_174.jpg	x = \frac { 1 0 8 } { 1 3 }
+test_175.jpg	x = 3 . 5
+test_176.jpg	3 0 h = 2 7 \Delta h - 8 \Delta h
+test_177.jpg	3 a _ { 1 } + 9 d = 1 0
+test_178.jpg	1 \sim 5 : B B D C B
+test_179.jpg	\angle B = \angle C ^ { \prime }
+test_180.jpg	d = \sqrt { a ^ { 2 } - 1 - \frac { a ^ { 2 } - 1 } { 4 } } = \frac { \vert a ^ { 2 } - 1 \vert } { \sqrt { a - 1 } }
+test_181.jpg	B D = D M , D H \bot B M
+test_182.jpg	( y + 1 ) ^ { 2 } + ( y + 1 ) y + y ^ { 2 } = 1
+test_183.jpg	\frac { 1 } { 3 } + 1 1 y = 1 0 y - 7
+test_184.jpg	\sqrt { 1 3 ^ { 3 } - 5 ^ { 2 } } - \sqrt { ( \sqrt { 2 } - 1 ) ^ { 2 } }
+test_185.jpg	\frac { 6 + a - 5 } { 5 } = \frac { 1 0 } { 6 }
+test_186.jpg	x = \frac { 6 4 0 } { 3 }
+test_188.jpg	\frac { 1 7 } { 2 0 } > \frac { 1 6 } { 2 0 }
+test_189.jpg	= s h = 1 . 0 \times 1 0 ^ { - 3 } m ^ { 2 } \times 0 . 2 m = 2 \times 1 0 ^ { - 4 } m ^ { 3 }
+test_190.jpg	4 x ^ { 2 } - y ^ { 2 } = 4
+test_192.jpg	I = \frac { U } { R } = \frac { 1 2 V } { 3 0 \Omega } = 0 . 4 A
+test_193.jpg	\frac { 7 } { + 7 + 3 } \times 3 6 0 ^ { \circ } = 2 6 0 ^ { \circ }
+test_194.jpg	0 . 5 < 0 . 5 0 1 < 0 . 5 1 < 0 . 5 1 1
+test_195.jpg	\angle O B A = \angle A B C = 6 0
+test_196.jpg	6 0 \times 6 0 \times 1 0 = 3 6 0 0 0 ( c m ^ { 2 } )
+test_197.jpg	x ^ { 2 } + ( 2 x - 1 ) ^ { 2 } + 3 ( 2 x - 1 ) + x + 1 = 0
+test_198.jpg	F _ { 1 } = 1 0 0 0 N
+test_200.jpg	\frac { 3 . 6 } { 4 . 5 } = \frac { 4 } { x }
+test_201.jpg	\angle 1 = 1 8 0 ^ { \circ } - \angle B A E = 1 8 0 ^ { \circ } - 4 6 ^ { \circ }
+test_202.jpg	x = \frac { 1 } { 3 }
+test_203.jpg	a = \frac { 9 5 } { 8 6 1 }
+test_204.jpg	2 4 0 \times 3 = 7 2 0 2 4 0 \times 4 = 9 6 0
+test_205.jpg	( x - ) ( 3 x + 2 ) - 3 x ( x + 3 ) + 1 0 x
+test_206.jpg	\frac { 1 } { 6 } < \frac { 4 } { 9 }
+test_207.jpg	y = \pm \frac { \sqrt { b ^ { 2 } + 1 } } { b ^ { 2 } + 1 }
+test_208.jpg	\frac { 2 } { 2 } - \frac { 6 } { 2 } + 2 = 1 - 3 + 2 = 0
+test_209.jpg	Z n + H _ { 2 } S O _ { 4 } = Z n S O _ { 4 } + H _ { 2 } \uparrow
+test_210.jpg	x = - \frac { 5 } { 1 8 }
+test_211.jpg	. a _ { 1 } = - \frac { 1 } { 4 }
+test_212.jpg	x _ { 2 } = \frac { 3 \sqrt { 6 } } { 4 }
+test_213.jpg	\frac { 5 } { 1 4 } - \frac { 1 } { 6 } = \frac { 2 } { 2 1 }
+test_214.jpg	\frac { 1 6 } { 3 } x = \frac { 3 2 } { 3 5 }
+test_215.jpg	2 N O + O _ { 2 } \rightarrow 2 N O _ { 2 }
+test_218.jpg	0 . 6 6 > 0 . 6 4 > 0 . 6 0 6 > 0 . 6 0 4
+test_219.jpg	\rho _ { N A } : y = \frac { 3 } { 2 } x - 1 2
+test_221.jpg	x + y - \sqrt { x + y } = 2
+test_222.jpg	\frac { 1 } { 2 } ( 3 0 \% x - 4 ) = 2 0 \%
+test_223.jpg	\cos \beta = \frac { 3 } { 2 } \cos \alpha
+test_224.jpg	C Q = B C - B Q = 6 0 - 2 0 \sqrt { 3 } ( m
+test_225.jpg	5 0 0 \approx 4 8 0
+test_226.jpg	3 - 1 - 2 \times \frac { 1 } { 2 } = 3 - 1 - 1 = 1
+test_228.jpg	N a _ { 2 } C O _ { 3 } + H _ { 2 } S O _ { 4 }
+test_231.jpg	( x - 1 ) ( 3 a x ^ { 2 } - 3 a x - 1 ) \geqslant 0
+test_232.jpg	\frac { 2 n } { 2 n + 1 } = \frac { 1 7 } { 3 5 }
+test_233.jpg	2 \sin ( A - \frac { \pi } { 6 } ) = 1
+test_234.jpg	y _ { 1 } = - \frac { 3 } { 2 }
+test_235.jpg	( t ^ { 2 } - \sqrt { 2 } ) ( t ^ { 2 } + \sqrt { 2 } t + 1 ) = 0
+test_237.jpg	\angle A D C = 1 8 0 ^ { \circ } - 6 0 ^ { \circ } = 1 2 0 ^ { \circ }
+test_239.jpg	\frac { x } { x - 3 } - 2 m = \frac { 3 m - 1 } { x - 3 }
+test_240.jpg	\angle B O S + \angle S = 1 8 0 ^ { \circ }
+test_242.jpg	. ( - 4 ) + 7 + ( - 9 ) + 8 + 6 + ( - 4 ) + ( - 3 ) = 1 k m
+test_243.jpg	\frac { 1 } { \sqrt { 2 } - 1 + 1 } = \frac { 1 } { \sqrt { 2 } } = \frac { \sqrt { 2 } } { 2 }
+test_244.jpg	2 8 0 \div 5 0 = 6 \cdots 3 0
+test_248.jpg	x - a ^ { 5 } = - \frac { 1 } { b \sqrt { 1 0 } }
+test_251.jpg	\frac { 1 } { a + b } = - \frac { 1 } { 2 - 1 } = 1
+test_252.jpg	\cos \angle A B C = \frac { 5 } { 1 3 } = \frac { B D } { A B }
+test_253.jpg	x - \frac { x - 1 } { 4 } = 2 \times \frac { x - 2 } { 3 }
+test_254.jpg	\frac { 1 1 7 } { 4 9 } = \frac { y } { 8 . 8 y }
+test_256.jpg	\frac { 5 } { 6 } \times \frac { 6 } { 5 } \textcircled { = } \frac { 3 } { 7 } \times \frac { 7 } { 3 }
+test_257.jpg	y = \frac { 1 } { 3 } x ^ { 2 } + b x + c
+test_258.jpg	6 x - 1 0 - 7 x - 6 x + 2 x + 2 = 3 x - 6
+test_259.jpg	\frac { 1 } { 2 } x - 1 1 1 + x = 8 3 4
+test_262.jpg	6 2 9 \div 1 3 = 4 8 \cdots 5
+test_263.jpg	\frac { 1 } { 3 } [ \frac { 1 } { 4 } ( \frac { 1 } { 5 } x - 2 ) - 8 ] = - 4
+test_264.jpg	3 . 1 4 \times 4 0 = 1 2 5 . 6 ( c m ^ { 2 } )
+test_265.jpg	a \geq - \frac { 1 } { 5 }
+test_266.jpg	v = \frac { m } { \rho } = \frac { 1 0 2 7 k g } { 7 . 9 g / c m ^ { 3 } } = 1 3 0 0 0 0 c m ^ { 3 }
+test_267.jpg	8 0 \% x + 1 5 0 = 5 0 0 \times 6 0 \% + 3 0 \%
+test_268.jpg	x _ { 1 } = \sqrt { 5 } + 1 , x _ { 2 } = 1 - \sqrt { 5 }
+test_269.jpg	D E + E C = D C = 3 . 5 c m
+test_270.jpg	1 = - 1 , x _ { 2 } = \frac { 5 \cdot } { 3 }
+test_271.jpg	\therefore B E = D F = y
+test_272.jpg	\frac { 1 0 6 } { x } = \frac { \cdot 1 0 0 } { 2 0 3 } = \frac { 1 1 7 } { y }
+test_273.jpg	1 5 \times 4 = 6 0 ( k g )
+test_276.jpg	8 ( 7 x - 1 ) - 1 2 ( 5 x + 1 ) = 4 8 - 6 ( 3 x + 2 )
+test_278.jpg	\cdot \angle B = ^ { \prime } \angle C = \frac { 1 8 0 ^ { \circ } - \angle B A C } { 2 } = \frac { 8 0 ^ { \circ } } { 2 } = 4 0 ^ { \circ }
+test_279.jpg	C D = 4 \sqrt { 5 }
+test_280.jpg	N a O H + H _ { 2 } O + C l _ { 1 } = Z N a C l + H C l O
+test_281.jpg	\frac { 3 6 } { 4 } = \frac { x } { 2 9 }
+test_282.jpg	\sin ( - \frac { 8 7 } { 4 } \pi ) = s i
+test_283.jpg	1 6 \times 6 = 9 6 c m ^ { 2 }
+test_285.jpg	y = \frac { 9 } { 5 }
+test_287.jpg	7 5 0 + 1 5 0 ( x - 1 ) = \frac { 3 0 0 x } { 2 } + \frac { 1 0 0 x } { 2 }
+test_288.jpg	\frac { 7 } { 8 } = \frac { 4 2 } { 4 8 }
+test_289.jpg	\frac { 1 2 } { 1 6 } = \frac { 9 } { 1 2 } 、 \frac { 4 } { 1 2 } > \frac { 5 } { 2 0 }
+test_290.jpg	\frac { B D } { C P } = 1
+test_291.jpg	5 x = \frac { 1 } { 2 } x + 3
+test_292.jpg	C O _ { 2 } + C a ( O H ) _ { 2 } = C a C O _ { 3 } \downarrow + H _ { 2 } O
+test_293.jpg	x = \frac { 1 6 } { 4 }
+test_294.jpg	x + 3 x = 2 + 1 - 1
+test_295.jpg	P = e g h = 1 \times 1 0 ^ { 3 } k g / m ^ { 3 } \times 0 . 1 m \times 9 . 8 N / k g = 9 8 0 P a
+test_296.jpg	\frac { O E } { O B } = \frac { O F } { O C }
+test_297.jpg	x ^ { 2 } + x + 1 = ( x + \frac { 1 } { 2 } ) ^ { 2 } + \frac { 3 } { 4 } \in [ - 1 , 1 ]
+test_298.jpg	\sin ( \frac { \pi } { 6 } + x ) = \frac { 1 } { 2 }
+test_299.jpg	\frac { 6 } { x + 1 } = \frac { x - 8 } { 3 } + 2
+test_300.jpg	\angle A C D + \angle B A C = 1 8 0 ^ { \circ }
+test_301.jpg	x + 8 2 \times 6 . 2 + 6 8 \times 6 . 2 = 1 2 6 2
+test_302.jpg	2 . 4 \times ( 1 0 - 3 ) + 3 . 6 ( x - 1 0 ) + 1 2 = 3 2 . 4

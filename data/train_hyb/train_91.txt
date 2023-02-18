@@ -1,0 +1,4 @@
+1	x	0	<sos>	None	None	None	None	None	None	None
+2	<	1	x	None	None	None	None	None	None	None
+3	4	2	<	None	None	None	None	None	None	None
+4	<eos>	3	4	None	None	None	None	None	None	None

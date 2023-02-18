@@ -1,0 +1,6 @@
+1	P	0	<sos>	None	None	None	None	None	None	None
+2	E	1	P	None	None	None	None	None	None	None
+3	\bot	2	E	None	None	None	None	None	None	None
+4	B	3	\bot	None	None	None	None	None	None	None
+5	C	4	B	None	None	None	None	None	None	None
+6	<eos>	5	C	None	None	None	None	None	None	None

@@ -1,0 +1,16 @@
+1	x	0	<sos>	None	None	None	None	None	None	None
+2	=	1	x	None	None	None	None	None	None	None
+3	2	2	=	None	None	None	None	None	None	None
+4	(	3	2	None	None	None	None	None	None	None
+5	\frac	4	(	None	None	None	None	None	None	None
+6	struct	5	\frac	above	below	None	None	None	None	right
+7	5	6	above	None	None	None	None	None	None	None
+8	x	7	5	None	None	None	None	None	None	None
+9	-	8	x	None	None	None	None	None	None	None
+10	1	9	-	None	None	None	None	None	None	None
+11	7	10	1	None	None	None	None	None	None	None
+12	<eos>	11	7	None	None	None	None	None	None	None
+13	4	6	below	None	None	None	None	None	None	None
+14	<eos>	13	4	None	None	None	None	None	None	None
+15	)	6	right	None	None	None	None	None	None	None
+16	<eos>	15	)	None	None	None	None	None	None	None

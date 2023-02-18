@@ -1,0 +1,16 @@
+1	-	0	<sos>	None	None	None	None	None	None	None
+2	2	1	-	None	None	None	None	None	None	None
+3	\sin	2	2	None	None	None	None	None	None	None
+4	(	3	\sin	None	None	None	None	None	None	None
+5	\alpha	4	(	None	None	None	None	None	None	None
+6	+	5	\alpha	None	None	None	None	None	None	None
+7	\beta	6	+	None	None	None	None	None	None	None
+8	)	7	\beta	None	None	None	None	None	None	None
+9	=	8	)	None	None	None	None	None	None	None
+10	-	9	=	None	None	None	None	None	None	None
+11	\frac	10	-	None	None	None	None	None	None	None
+12	struct	11	\frac	above	below	None	None	None	None	None
+13	3	12	above	None	None	None	None	None	None	None
+14	<eos>	13	3	None	None	None	None	None	None	None
+15	5	12	below	None	None	None	None	None	None	None
+16	<eos>	15	5	None	None	None	None	None	None	None

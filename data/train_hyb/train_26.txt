@@ -1,0 +1,12 @@
+1	-	0	<sos>	None	None	None	None	None	None	None
+2	(	1	-	None	None	None	None	None	None	None
+3	m	2	(	None	None	None	None	None	None	None
+4	+	3	m	None	None	None	None	None	None	None
+5	2	4	+	None	None	None	None	None	None	None
+6	)	5	2	None	None	None	None	None	None	None
+7	struct	6	)	None	None	None	sup	None	None	right
+8	2	7	sup	None	None	None	None	None	None	None
+9	<eos>	8	2	None	None	None	None	None	None	None
+10	\geq	7	right	None	None	None	None	None	None	None
+11	0	10	\geq	None	None	None	None	None	None	None
+12	<eos>	11	0	None	None	None	None	None	None	None

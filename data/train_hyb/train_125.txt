@@ -1,0 +1,14 @@
+1	=	0	<sos>	None	None	None	None	None	None	None
+2	\frac	1	=	None	None	None	None	None	None	None
+3	struct	2	\frac	above	below	None	None	None	None	None
+4	1	3	above	None	None	None	None	None	None	None
+5	2	4	1	None	None	None	None	None	None	None
+6	<eos>	5	2	None	None	None	None	None	None	None
+7	\frac	3	below	None	None	None	None	None	None	None
+8	struct	7	\frac	above	below	None	None	None	None	None
+9	\sqrt	8	above	None	None	None	None	None	None	None
+10	struct	9	\sqrt	None	None	None	None	None	inside	None
+11	2	10	inside	None	None	None	None	None	None	None
+12	<eos>	11	2	None	None	None	None	None	None	None
+13	2	8	below	None	None	None	None	None	None	None
+14	<eos>	13	2	None	None	None	None	None	None	None

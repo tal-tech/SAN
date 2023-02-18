@@ -1,0 +1,13 @@
+1	\angle	0	<sos>	None	None	None	None	None	None	None
+2	B	1	\angle	None	None	None	None	None	None	None
+3	+	2	B	None	None	None	None	None	None	None
+4	\angle	3	+	None	None	None	None	None	None	None
+5	B	4	\angle	None	None	None	None	None	None	None
+6	F	5	B	None	None	None	None	None	None	None
+7	D	6	F	None	None	None	None	None	None	None
+8	=	7	D	None	None	None	None	None	None	None
+9	\angle	8	=	None	None	None	None	None	None	None
+10	F	9	\angle	None	None	None	None	None	None	None
+11	D	10	F	None	None	None	None	None	None	None
+12	C	11	D	None	None	None	None	None	None	None
+13	<eos>	12	C	None	None	None	None	None	None	None

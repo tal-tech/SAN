@@ -1,0 +1,10 @@
+1	\Delta	0	<sos>	None	None	None	None	None	None	None
+2	A	1	\Delta	None	None	None	None	None	None	None
+3	B	2	A	None	None	None	None	None	None	None
+4	C	3	B	None	None	None	None	None	None	None
+5	\sim	4	C	None	None	None	None	None	None	None
+6	\Delta	5	\sim	None	None	None	None	None	None	None
+7	F	6	\Delta	None	None	None	None	None	None	None
+8	C	7	F	None	None	None	None	None	None	None
+9	D	8	C	None	None	None	None	None	None	None
+10	<eos>	9	D	None	None	None	None	None	None	None

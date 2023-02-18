@@ -1,0 +1,15 @@
+1	f	0	<sos>	None	None	None	None	None	None	None
+2	(	1	f	None	None	None	None	None	None	None
+3	x	2	(	None	None	None	None	None	None	None
+4	)	3	x	None	None	None	None	None	None	None
+5	=	4	)	None	None	None	None	None	None	None
+6	e	5	=	None	None	None	None	None	None	None
+7	struct	6	e	None	None	None	sup	None	None	right
+8	x	7	sup	None	None	None	None	None	None	None
+9	<eos>	8	x	None	None	None	None	None	None	None
+10	-	7	right	None	None	None	None	None	None	None
+11	a	10	-	None	None	None	None	None	None	None
+12	x	11	a	None	None	None	None	None	None	None
+13	struct	12	x	None	None	None	sup	None	None	None
+14	3	13	sup	None	None	None	None	None	None	None
+15	<eos>	14	3	None	None	None	None	None	None	None

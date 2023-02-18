@@ -4,7 +4,7 @@ import argparse
 import random
 import torch
 import numpy as np
-from tensorboardX import SummaryWriter
+#from tensorboardX import SummaryWriter
 
 from utils import load_config, save_checkpoint, load_checkpoint
 from dataset import get_dataset
@@ -43,8 +43,9 @@ model = model.to(device)
 
 if args.check:
     writer = None
-else:
-    writer = SummaryWriter(f'{params["log_dir"]}/{model.name}')
+writer = None
+#else:
+#    writer = SummaryWriter(f'{params["log_dir"]}/{model.name}')
 
 optimizer = getattr(torch.optim, params['optimizer'])(model.parameters(), lr=float(params['lr']),
                                                       eps=float(params['eps']), weight_decay=float(params['weight_decay']))

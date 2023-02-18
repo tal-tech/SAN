@@ -1,0 +1,17 @@
+1	f	0	<sos>	None	None	None	None	None	None	None
+2	(	1	f	None	None	None	None	None	None	None
+3	2	2	(	None	None	None	None	None	None	None
+4	)	3	2	None	None	None	None	None	None	None
+5	=	4	)	None	None	None	None	None	None	None
+6	f	5	=	None	None	None	None	None	None	None
+7	(	6	f	None	None	None	None	None	None	None
+8	\frac	7	(	None	None	None	None	None	None	None
+9	struct	8	\frac	above	below	None	None	None	None	right
+10	1	9	above	None	None	None	None	None	None	None
+11	<eos>	10	1	None	None	None	None	None	None	None
+12	2	9	below	None	None	None	None	None	None	None
+13	<eos>	12	2	None	None	None	None	None	None	None
+14	\times	9	right	None	None	None	None	None	None	None
+15	4	14	\times	None	None	None	None	None	None	None
+16	)	15	4	None	None	None	None	None	None	None
+17	<eos>	16	)	None	None	None	None	None	None	None

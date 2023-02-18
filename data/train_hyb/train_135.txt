@@ -1,0 +1,5 @@
+1	D	0	<sos>	None	None	None	None	None	None	None
+2	x	1	D	None	None	None	None	None	None	None
+3	\leq	2	x	None	None	None	None	None	None	None
+4	2	3	\leq	None	None	None	None	None	None	None
+5	<eos>	4	2	None	None	None	None	None	None	None

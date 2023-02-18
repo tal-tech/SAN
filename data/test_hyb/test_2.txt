@@ -1,0 +1,14 @@
+1	\frac	0	<sos>	None	None	None	None	None	None	None
+2	struct	1	\frac	above	below	None	None	None	None	right
+3	5	2	above	None	None	None	None	None	None	None
+4	<eos>	3	5	None	None	None	None	None	None	None
+5	1	2	below	None	None	None	None	None	None	None
+6	4	5	1	None	None	None	None	None	None	None
+7	<eos>	6	4	None	None	None	None	None	None	None
+8	=	2	right	None	None	None	None	None	None	None
+9	\frac	8	=	None	None	None	None	None	None	None
+10	struct	9	\frac	above	below	None	None	None	None	None
+11	1	10	above	None	None	None	None	None	None	None
+12	<eos>	11	1	None	None	None	None	None	None	None
+13	x	10	below	None	None	None	None	None	None	None
+14	<eos>	13	x	None	None	None	None	None	None	None

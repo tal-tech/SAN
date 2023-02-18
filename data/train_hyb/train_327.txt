@@ -1,0 +1,9 @@
+1	=	0	<sos>	None	None	None	None	None	None	None
+2	1	1	=	None	None	None	None	None	None	None
+3	3	2	1	None	None	None	None	None	None	None
+4	8	3	3	None	None	None	None	None	None	None
+5	0	4	8	None	None	None	None	None	None	None
+6	\div	5	0	None	None	None	None	None	None	None
+7	2	6	\div	None	None	None	None	None	None	None
+8	0	7	2	None	None	None	None	None	None	None
+9	<eos>	8	0	None	None	None	None	None	None	None

@@ -1,0 +1,6 @@
+1	8	0	<sos>	None	None	None	None	None	None	None
+2	-	1	8	None	None	None	None	None	None	None
+3	2	2	-	None	None	None	None	None	None	None
+4	=	3	2	None	None	None	None	None	None	None
+5	6	4	=	None	None	None	None	None	None	None
+6	<eos>	5	6	None	None	None	None	None	None	None

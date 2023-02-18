@@ -1,0 +1,12 @@
+1	4	0	<sos>	None	None	None	None	None	None	None
+2	=	1	4	None	None	None	None	None	None	None
+3	2	2	=	None	None	None	None	None	None	None
+4	a	3	2	None	None	None	None	None	None	None
+5	-	4	a	None	None	None	None	None	None	None
+6	\frac	5	-	None	None	None	None	None	None	None
+7	struct	6	\frac	above	below	None	None	None	None	None
+8	a	7	above	None	None	None	None	None	None	None
+9	b	8	a	None	None	None	None	None	None	None
+10	<eos>	9	b	None	None	None	None	None	None	None
+11	2	7	below	None	None	None	None	None	None	None
+12	<eos>	11	2	None	None	None	None	None	None	None

@@ -1,0 +1,14 @@
+1	m	0	<sos>	None	None	None	None	None	None	None
+2	-	1	m	None	None	None	None	None	None	None
+3	n	2	-	None	None	None	None	None	None	None
+4	=	3	n	None	None	None	None	None	None	None
+5	b	4	=	None	None	None	None	None	None	None
+6	struct	5	b	None	None	None	sup	None	None	right
+7	2	6	sup	None	None	None	None	None	None	None
+8	<eos>	7	2	None	None	None	None	None	None	None
+9	+	6	right	None	None	None	None	None	None	None
+10	2	9	+	None	None	None	None	None	None	None
+11	b	10	2	None	None	None	None	None	None	None
+12	-	11	b	None	None	None	None	None	None	None
+13	5	12	-	None	None	None	None	None	None	None
+14	<eos>	13	5	None	None	None	None	None	None	None

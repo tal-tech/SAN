@@ -1,0 +1,4 @@
+1	y	0	<sos>	None	None	None	None	None	None	None
+2	=	1	y	None	None	None	None	None	None	None
+3	m	2	=	None	None	None	None	None	None	None
+4	<eos>	3	m	None	None	None	None	None	None	None

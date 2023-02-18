@@ -1,0 +1,9 @@
+1	x	0	<sos>	None	None	None	None	None	None	None
+2	=	1	x	None	None	None	None	None	None	None
+3	\frac	2	=	None	None	None	None	None	None	None
+4	struct	3	\frac	above	below	None	None	None	None	None
+5	1	4	above	None	None	None	None	None	None	None
+6	7	5	1	None	None	None	None	None	None	None
+7	<eos>	6	7	None	None	None	None	None	None	None
+8	5	4	below	None	None	None	None	None	None	None
+9	<eos>	8	5	None	None	None	None	None	None	None

@@ -1,0 +1,14 @@
+1	F	0	<sos>	None	None	None	None	None	None	None
+2	e	1	F	None	None	None	None	None	None	None
+3	S	2	e	None	None	None	None	None	None	None
+4	O	3	S	None	None	None	None	None	None	None
+5	struct	4	O	None	None	sub	None	None	None	right
+6	4	5	sub	None	None	None	None	None	None	None
+7	<eos>	6	4	None	None	None	None	None	None	None
+8	+	5	right	None	None	None	None	None	None	None
+9	H	8	+	None	None	None	None	None	None	None
+10	struct	9	H	None	None	sub	None	None	None	right
+11	2	10	sub	None	None	None	None	None	None	None
+12	<eos>	11	2	None	None	None	None	None	None	None
+13	\uparrow	10	right	None	None	None	None	None	None	None
+14	<eos>	13	\uparrow	None	None	None	None	None	None	None

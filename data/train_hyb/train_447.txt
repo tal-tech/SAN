@@ -1,0 +1,11 @@
+1	S	0	<sos>	None	None	None	None	None	None	None
+2	=	1	S	None	None	None	None	None	None	None
+3	k	2	=	None	None	None	None	None	None	None
+4	t	3	k	None	None	None	None	None	None	None
+5	+	4	t	None	None	None	None	None	None	None
+6	(	5	+	None	None	None	None	None	None	None
+7	k	6	(	None	None	None	None	None	None	None
+8	\neq	7	k	None	None	None	None	None	None	None
+9	0	8	\neq	None	None	None	None	None	None	None
+10	)	9	0	None	None	None	None	None	None	None
+11	<eos>	10	)	None	None	None	None	None	None	None

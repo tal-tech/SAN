@@ -1,6 +1,11 @@
 import os
 from tqdm import tqdm
+import argparse
 
+parser = argparse.ArgumentParser(description='Spatial channel attention')
+parser.add_argument('--labels_path', default='train', type=str, help='path to train or test labels')
+parser.add_argument('--train_test', type=str, help='train or test')
+args = parser.parse_args()
 
 class Tree:
     def __init__(self, label, parent_label='None', id=0, parent_id=0, op='none'):
@@ -22,19 +27,21 @@ def convert(root: Tree, f):
 
 
 
-label = '../train_latex.txt'
-out = 'train_hyb'
+# label = '../train_latex.txt'
+label = args.labels_path
+out = args.train_test + '_hyb'
 
 position = set(['^', '_'])
 math = set(['\\frac','\sqrt'])
 
-with open(label) as f:
+with open(label, encoding="utf8") as f:
     lines = f.readlines()
 num = 0
 for line in tqdm(lines):
     # line = 'RIT_2014_178.jpg x ^ { \\frac { p } { q } } = \sqrt [ q ] { x ^ { p } } = \sqrt [ q ] { x ^ { p } }'
     name, *words = line.split()
     name = name.split('.')[0]
+    print(name)
 
     parents = []
     root = Tree('root', parent_label='root', parent_id=-1)
@@ -157,7 +164,9 @@ for line in tqdm(lines):
         parent_dict[i+1] = []
         parent_dict[labels[i][2]].append(labels[i][3])
 
-    with open(f'train_hyb/{name}.txt', 'w') as f:
+    if not os.path.exists(out):
+        os.makedirs(out)
+    with open(f'{out}/{name}.txt', 'w', encoding="utf8") as f:
         for line in labels:
             id, label, parent_id, parent_label = line
             if label != 'struct':

@@ -1,0 +1,16 @@
+1	m	0	<sos>	None	None	None	None	None	None	None
+2	F	1	m	None	None	None	None	None	None	None
+3	e	2	F	None	None	None	None	None	None	None
+4	=	3	e	None	None	None	None	None	None	None
+5	5	4	=	None	None	None	None	None	None	None
+6	6	5	5	None	None	None	None	None	None	None
+7	\times	6	6	None	None	None	None	None	None	None
+8	0	7	\times	None	None	None	None	None	None	None
+9	.	8	0	None	None	None	None	None	None	None
+10	1	9	.	None	None	None	None	None	None	None
+11	=	10	1	None	None	None	None	None	None	None
+12	5	11	=	None	None	None	None	None	None	None
+13	.	12	5	None	None	None	None	None	None	None
+14	6	13	.	None	None	None	None	None	None	None
+15	g	14	6	None	None	None	None	None	None	None
+16	<eos>	15	g	None	None	None	None	None	None	None

@@ -1,0 +1,16 @@
+1	S	0	<sos>	None	None	None	None	None	None	None
+2	struct	1	S	None	None	sub	None	None	None	right
+3	n	2	sub	None	None	None	None	None	None	None
+4	<eos>	3	n	None	None	None	None	None	None	None
+5	=	2	right	None	None	None	None	None	None	None
+6	\frac	5	=	None	None	None	None	None	None	None
+7	struct	6	\frac	above	below	None	None	None	None	None
+8	2	7	above	None	None	None	None	None	None	None
+9	n	8	2	None	None	None	None	None	None	None
+10	<eos>	9	n	None	None	None	None	None	None	None
+11	3	7	below	None	None	None	None	None	None	None
+12	struct	11	3	None	None	None	sup	None	None	None
+13	n	12	sup	None	None	None	None	None	None	None
+14	+	13	n	None	None	None	None	None	None	None
+15	1	14	+	None	None	None	None	None	None	None
+16	<eos>	15	1	None	None	None	None	None	None	None
