@@ -1,9 +1,0 @@
-1	A	0	<sos>	None	None	None	None	None	None	None
-2	P	1	A	None	None	None	None	None	None	None
-3	struct	2	P	None	None	None	sup	None	None	right
-4	\prime	3	sup	None	None	None	None	None	None	None
-5	<eos>	4	\prime	None	None	None	None	None	None	None
-6	=	3	right	None	None	None	None	None	None	None
-7	P	6	=	None	None	None	None	None	None	None
-8	C	7	P	None	None	None	None	None	None	None
-9	<eos>	8	C	None	None	None	None	None	None	None

@@ -6,9 +6,9 @@ import cv2
 import pickle as pkl
 
 parser = argparse.ArgumentParser(description='Spatial channel attention')
-parser.add_argument('--images_path', default='/home/yuanye/work/data/CROHME2014/14_off_image_test', type=str, help='image')
-parser.add_argument('--labels_path', default='/home/yuanye/work/data/CROHME2014/test_caption.txt', type=str, help='label')
-parser.add_argument('--train_test', default='/home/yuanye/work/data/CROHME2014/test_caption.txt', type=str, help='train/test')
+parser.add_argument('--images_path', default='/home/yuanye/work/data/CROHME2014/14_off_image_test', type=str, help='测试image路径')
+parser.add_argument('--labels_path', default='/home/yuanye/work/data/CROHME2014/test_caption.txt', type=str, help='测试label路径')
+parser.add_argument('--train_test', default='/home/yuanye/work/data/CROHME2014/test_caption.txt', type=str, help='测试train/test路径')
 parser.add_argument('--image_type', default='png', type=str, help='png/jpg/bmp/jpeg/etc')
 args = parser.parse_args()
 

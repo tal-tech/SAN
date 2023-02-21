@@ -24,23 +24,15 @@ with open('word.txt', 'w') as writer:
     writer.write('<eos>\n<sos>\nstruct\n')
     i = 3
     for item in tqdm(train_labels):
-        # print('item:', item)
         with open(item, encoding="utf8") as f:
             lines = f.readlines()
-        # print('lines:', lines)
         for line in lines:
-            # print('line:', line)
             #cid, c, pid, p, *r = line.strip().split()
             cid, c, *r = line.strip().split()
-            # print(cid, c)
-            # input()
             if c not in words_dict:
-                # print('adding', c)
                 words_dict.add(c)
                 writer.write(f'{c}\n')
                 i+=1
-            # else:
-            #     print('already added', c)
     
     if args.test_labels_path:
         for item in tqdm(test_labels):
@@ -50,12 +42,9 @@ with open('word.txt', 'w') as writer:
                 #cid, c, pid, p, *r = line.strip().split()
                 cid, c, *r = line.strip().split()
                 if c not in words_dict:
-                    # print('adding', c)
                     words_dict.add(c)
                     writer.write(f'{c}\n')
-                    i += 1
-                # else:
-                     # print('already added', c)
+                    i+=1
                 
     
     writer.write('above\nbelow\nsub\nsup\nl_sup\ninside\nright')

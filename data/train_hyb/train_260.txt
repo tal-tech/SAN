@@ -1,9 +1,0 @@
-1	S	0	<sos>	None	None	None	None	None	None	None
-2	struct	1	S	None	None	sub	None	None	None	right
-3	\Delta	2	sub	None	None	None	None	None	None	None
-4	C	3	\Delta	None	None	None	None	None	None	None
-5	M	4	C	None	None	None	None	None	None	None
-6	N	5	M	None	None	None	None	None	None	None
-7	<eos>	6	N	None	None	None	None	None	None	None
-8	=	2	right	None	None	None	None	None	None	None
-9	<eos>	8	=	None	None	None	None	None	None	None

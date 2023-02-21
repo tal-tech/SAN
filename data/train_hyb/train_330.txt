@@ -1,7 +1,0 @@
-1	P	0	<sos>	None	None	None	None	None	None	None
-2	Q	1	P	None	None	None	None	None	None	None
-3	/	2	Q	None	None	None	None	None	None	None
-4	/	3	/	None	None	None	None	None	None	None
-5	E	4	/	None	None	None	None	None	None	None
-6	F	5	E	None	None	None	None	None	None	None
-7	<eos>	6	F	None	None	None	None	None	None	None

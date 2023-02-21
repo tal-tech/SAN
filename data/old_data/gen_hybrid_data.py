@@ -3,8 +3,8 @@ from tqdm import tqdm
 import argparse
 
 parser = argparse.ArgumentParser(description='Spatial channel attention')
-parser.add_argument('--labels_path', default='test/test_labels.txt', type=str, help='path to train or test labels')
-parser.add_argument('--train_test', default='test', type=str, help='train or test')
+parser.add_argument('--labels_path', default='train', type=str, help='path to train or test labels')
+parser.add_argument('--train_test', type=str, help='train or test')
 args = parser.parse_args()
 
 class Tree:
@@ -38,7 +38,7 @@ with open(label, encoding="utf8") as f:
     lines = f.readlines()
 num = 0
 for line in tqdm(lines):
-    #line = 'train_476.jpg	\\textcircled { 1 } + \\textcircled { 2 } = 2 x + 5 y + 3 x - 5 y = 1 0'
+    # line = 'RIT_2014_178.jpg x ^ { \\frac { p } { q } } = \sqrt [ q ] { x ^ { p } } = \sqrt [ q ] { x ^ { p } }'
     name, *words = line.split()
     name = name.split('.')[0]
     print(name)
@@ -52,16 +52,6 @@ for line in tqdm(lines):
     id = 1
     parents = [Tree('<sos>', id=0)]
     parent = Tree('<sos>', id=0)
-
-    print('line:', line)
-    print('name:', name)
-    print('words:', words)
-
-    '''
-    \\overrightarrow
-    \\text circled
-    \\xrightarrow
-    '''
 
     for i in range(len(words)):
         a = words[i]
@@ -86,21 +76,6 @@ for line in tqdm(lines):
                 parents.append(Tree('\sqrt', id=parent.id))
                 parent = Tree('inside', id=id)
                 id += 1
-            elif words[i-1] == '\\textcircled':
-                labels.append([id, 'struct', parent.id, '\\textcircled'])
-                parents.append(Tree('\\textcircled', id=parent.id))
-                parent = Tree('inside', id=id)
-                id += 1
-            elif words[i-1] == '\\overrightarrow':
-                labels.append([id, 'struct', parent.id, '\\overrightarrow'])
-                parents.append(Tree('\\overrightarrow', id=parent.id))
-                parent = Tree('inside', id=id)
-                id += 1
-            # elif words[i-1] == '\\xrightarrow':
-            #     labels.append([id, 'struct', parent.id, '\\xrightarrow'])
-            #     parents.append(Tree('\\xrightarrow', id=parent.id))
-            #     parent = Tree('inside', id=id)
-            #     id += 1
             elif words[i-1] == ']' and parents[-1].label == '\sqrt':
                 parent = Tree('inside', id=parents[-1].id+1)
 
@@ -148,8 +123,7 @@ for line in tqdm(lines):
                         parent = Tree('above', id=parents[-1].id+1)
                     # id += 1
             else:
-                print('unknown word before {', name, i, words[i-1])
-                # input()
+                print('unknown word before {', name, i)
 
 
         elif words[i] == '[' and words[i-1] == '\sqrt':
@@ -162,12 +136,6 @@ for line in tqdm(lines):
             id += 1
 
         elif words[i] == '}':
-            # print(i)
-            # print(words)
-            # print(words[i])
-            # print(words[i - 1])
-            # print(words[i + 1])
-
 
             if words[i-1] != '}':
                 labels.append([id, '<eos>', parent.id, parent.label])

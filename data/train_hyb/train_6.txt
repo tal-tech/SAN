@@ -1,8 +1,0 @@
-1	\angle	0	<sos>	None	None	None	None	None	None	None
-2	A	1	\angle	None	None	None	None	None	None	None
-3	=	2	A	None	None	None	None	None	None	None
-4	4	3	=	None	None	None	None	None	None	None
-5	0	4	4	None	None	None	None	None	None	None
-6	struct	5	0	None	None	None	sup	None	None	None
-7	\circ	6	sup	None	None	None	None	None	None	None
-8	<eos>	7	\circ	None	None	None	None	None	None	None

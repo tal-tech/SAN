@@ -1,8 +1,0 @@
-1	a	0	<sos>	None	None	None	None	None	None	None
-2	struct	1	a	None	None	sub	None	None	None	right
-3	1	2	sub	None	None	None	None	None	None	None
-4	<eos>	3	1	None	None	None	None	None	None	None
-5	=	2	right	None	None	None	None	None	None	None
-6	-	5	=	None	None	None	None	None	None	None
-7	1	6	-	None	None	None	None	None	None	None
-8	<eos>	7	1	None	None	None	None	None	None	None
